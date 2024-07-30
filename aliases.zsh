@@ -13,6 +13,11 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias projects="cd $HOME/Code"
 alias sites="cd $HOME/Herd"
+alias herd-path="cd $HOME/Library/Application\ Support/Herd"
+alias nova-path="cd $HOME/Users/"
+
+alias debug_on=export XDEBUG_MODE=debug XDEBUG_SESSION=1
+alias debug_off=export XDEBUG_MODE=debug XDEBUG_SESSION=0
 
 # Laravel
 alias a="herd php artisan"
@@ -32,9 +37,6 @@ alias watch="npm run dev"
 
 # Docker
 alias docker-composer="docker-compose"
-
-# SQL Server
-alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
 
 # Git
 alias gs="git status"
